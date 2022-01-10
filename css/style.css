@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+ul{
+    list-style-type:none;
+    padding: 0px;
+}
+.nav{
+    position:fixed;
+    height: 100%;
+}
+.myname{
+    writing-mode: vertical-rl;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.myimage{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.mycard{
+    max-width: auto;
+    border: 0px;
+    padding: 10px;
+}
+.mycard-2{
+    border: 0px;
+    padding: 10px;
+    max-width: 360px;
+    max-height: 180px;
+}
+.mycard-3{
+    border: 0px;
+    padding: 10px;
+    max-width: auto;
+    max-height: 180px;
+}
+.card-img{
+    max-height: 101px;
+}
+.title{
+    font-size:2%;
+}
+ion-icon {
+  font-size:2rem;
+}
+.left-sidebar{
+    align-items: baseline;
+    border-right: 1px solid lightblue!important;
+    height: 100%;
+}
+.right-sidebar{
+    align-items: baseline;
+   border-left: 1px solid lightblue!important;
+   height: 100%;
+}
+
